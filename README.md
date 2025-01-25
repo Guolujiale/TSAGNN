@@ -23,14 +23,14 @@ You can use' pip' to install the project's dependency library:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### Run
 
 You can run the model by typing the following from the command line:
 
 ```bash
 python run6_store2.py
-
+```
 ### Program structure
 ```bash
 .
@@ -39,3 +39,4 @@ python run6_store2.py
 ├── data/                     # 存储数据集的文件夹
 ├── src/                      # 存放源代码的文件夹
 ├── README.md                 # 项目的说明文档
+```
