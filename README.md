@@ -31,11 +31,15 @@ You can run the model by typing the following from the command line:
 ```bash
 python run.py
 ```
-- `Please make sure your data in the dir 'data' as name **'20-21data_encoded.csv'**, you can rename it in the **line 45** of **run.py**`  
-- `Yor can also prepare yourself data by using the **predata.py**`  
-- `If you want to modify the Hyperparameter of this model, you can change the number of **win_size, batch_size, n_layer** in **run.py**`  
-- `**win_size:** Use the data of **win_size** months in the past to predict the current data, which will change the result of data preprocessing.`  
-- `**n_layer:** Increasing the value of **n_layer** will deepen the model, prolong the training time and improve the accuracy.`  
+Please make sure your data in the dir 'data' as name **'20-21data_encoded.csv'**, you can rename it in the **line 45** of **run.py**  
+
+Yor can also prepare yourself data by using the **predata.py**  
+
+If you want to modify the Hyperparameter of this model, you can change the number of **win_size, batch_size, n_layer** in **run.py**  
+
+**win_size:** Use the data of **win_size** months in the past to predict the current data, which will change the result of data preprocessing.  
+
+**n_layer:** Increasing the value of **n_layer** will deepen the model, prolong the training time and improve the accuracy.  
 
 ### Program structure
 ```bash
