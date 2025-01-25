@@ -42,7 +42,7 @@ If you want to modify the Hyperparameter of this model, you can change the numbe
 **n_layer:** Increasing the value of **n_layer** will deepen the model, prolong the training time and improve the accuracy. 
 
 ### Result
-The result will be save in the dir run.
+The result will be save in the dir: **run/**.
 
 ### Program structure
 ```bash
