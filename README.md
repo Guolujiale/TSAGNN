@@ -1,9 +1,10 @@
 # TSAGNN
-Prediction of store star using Time Sequential Attention GNN
+Prediction of store star using Time Sequential Attention GNN.
 
 ## Environment
 
-Please install the necessary libraries according to the following requirements.
+Please install the necessary libraries according to the following requirements.  
+This program need run in the Linux system.
 
 ### Dependency library
 
