@@ -33,7 +33,7 @@ python run.py
 ```
 Please make sure your data in the dir 'data' as name **'20-21data_encoded.csv'**, you can rename it in the **line 45** of **run.py**  
 
-Yor can also prepare yourself data by using the **predata.py**  
+You can also prepare yourself data by using the **predata.py**  
 
 If you want to modify the Hyperparameter of this model, you can change the number of **win_size, batch_size, n_layer** in **run.py**  
 
@@ -47,9 +47,12 @@ The result will be save in the dir run.
 ### Program structure
 ```bash
 .
-├── run6_store2.py            # 主要的运行脚本
-├── requirements.txt          # 项目所需的库及版本
-├── data/                     # 存储数据集的文件夹
-├── src/                      # 存放源代码的文件夹
-├── README.md                 # 项目的说明文档
+├── run.py                    # Main run 
+├── requirements.txt          # Libraries and versions required for the project
+├── data/                     # The folder where the dataset is stored.
+├── run/                      # Result dir
+├── README.md                 # Description document of the project
+├── layer.py                  # model layer
+├── model.py                  # model
+├── dataset.py                # prepare gnn dataset
 ```
