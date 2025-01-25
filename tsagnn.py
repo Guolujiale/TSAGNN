@@ -1,7 +1,7 @@
 import torch
 import torch.optim as optim
 from dataset import HeteroGraphDataset  # 导入数据集类
-from model_store import Model
+from model import Model
 import os
 import time
 import torch.nn.functional as F
