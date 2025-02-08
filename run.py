@@ -184,7 +184,7 @@ def main():
         avg_epoch_loss = epoch_loss / num_batches
         epoch_end_time = time.time()
         epoch_duration = epoch_end_time - epoch_start_time
-        write_log(f"Epoch: {epoch + 1}, Average Loss: {avg_epoch_loss:.4f}, Duration: {epoch_duration:.2f} seconds")
+        write_log(f"Epoch: {epoch + 1}, Average Loss: {avg_epoch_loss:.4f}, Duration: {epoch_duration:.2f} seconds", run_dir)
 
     # 测试阶段
     all_outputs = []
