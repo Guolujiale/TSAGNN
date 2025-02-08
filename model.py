@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from layer3 import Attn_head, SimpleAttLayer
+from layer import Attn_head, SimpleAttLayer
 
 
 class Model(nn.Module):
