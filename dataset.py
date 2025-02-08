@@ -30,9 +30,13 @@ class HeteroGraphDataset(InMemoryDataset):
                  filename, 
                  win_size, 
                  transform=None, 
-                 output_dir="./data/graph_data"):
+                 output_dir=None):
         self.root = '.'  # 父类InMemoryDataset要求定义
         self.win_size = win_size
+                     
+        if output_dir is None:
+            output_dir = f"./data/graph_data_{win_size}" 
+            
         self.output_dir = output_dir
         super(HeteroGraphDataset, self).__init__(self.root, transform)
         
