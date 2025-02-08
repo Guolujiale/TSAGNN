@@ -35,7 +35,7 @@ class HeteroGraphDataset(InMemoryDataset):
         self.win_size = win_size
                      
         if output_dir is None:
-            output_dir = f"./data/graph_data_{win_size}" 
+            output_dir = f"./data/graph_data_win{win_size}" 
             
         self.output_dir = output_dir
         super(HeteroGraphDataset, self).__init__(self.root, transform)
